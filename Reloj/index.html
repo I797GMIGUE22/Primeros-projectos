@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Reloj</title>
+</head>
+<body>
+    <main id="pagina-principal">
+        <button id="boton-reloj">Reloj 🕗</button>
+        <button id="boton-cronometro">Cronometro ⌛</button>
+    </main>
+
+    <section id="reloj-cronometro">
+        <p id="contador">
+            <span id="d-hrs"></span> <span id="u-hrs"></span>  :  <span id="d-min"></span> <span id="u-min"></span>  :  <span id="d-seg"></span> <span id="u-seg"></span>
+        </p>
+        <button id="boton-iniciar-crono">Iniciar</button>
+        <button id="boton-pausar">Pausar</button>
+        <button id="boton-continuar">Continuar</button>
+        <button id="boton-reiniciar">Reiniciar</button>
+        <button id="boton-mostrar-laps">Laps</button>
+        <button id="boton-mostrar-lista">Mostrar Lista</button>
+        <button id="boton-retroceder">◀️</button>
+    </section>
+
+    <section id="laps">
+        <h2>Laps:</h2>
+        <ul id="lista-laps"></ul>
+        <button id="boton-ocultar-lista">Ocultar Lista</button>
+    </section>
+</body>
+<script src="./js/clock.js"></script>
+</html>

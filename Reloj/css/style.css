@@ -1,0 +1,16 @@
+#reloj-cronometro,
+#boton-reiniciar,
+#boton-iniciar-crono,
+#boton-continuar,
+#boton-pausar,
+#boton-retroceder,
+#laps,
+#boton-mostrar-laps,
+#boton-mostrar-lista,
+#boton-ocultar-lista {
+    display: none;
+}
+
+#lista-laps {
+    white-space: pre;
+}
